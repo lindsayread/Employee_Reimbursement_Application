@@ -63,4 +63,5 @@ In order to manage client requests, I implemented a front controller design patt
 <img width="294" alt="Screen Shot 2021-03-21 at 7 53 02 PM" src="https://user-images.githubusercontent.com/65792127/111930781-4f3fe800-8a7f-11eb-9e1a-d349388bfde2.png">
 
 #### Finance Manager: Filtered for "Pending" Only
-<img width="1275" alt="Screen Shot 2021-03-21 at 7 53 36 PM" src="https://user-images.githubusercontent.com/65792127/111930782-4f3fe800-8a7f-11eb-9f23-7a0c343495b1.png">
+<img width="1201" alt="Screen Shot 2021-03-21 at 8 14 47 PM" src="https://user-images.githubusercontent.com/65792127/111932047-35ec6b00-8a82-11eb-9af0-74f0eb39fc53.png">
+
