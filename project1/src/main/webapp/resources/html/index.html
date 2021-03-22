@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login Page</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./resources/css/login.css">
+</head>
+<body>
+	<div class="homepage-container">
+	<div class="card">
+		<div class="card-header">
+			<h3>Login or Register New User</h3>
+		</div>
+		<div>
+		<form method="post" action="/project1/login.change">
+			<br><br><p>Please Login or Register New User</p>
+			
+			<label for="username" class="form-label">Username:</label>
+			<input placeholder="Enter Username" name="username"><br>
+			
+			<label for="password" class="form-label">Password:</label>
+			<input type="password" placeholder="Enter Password" name="password"><br>
+			<input id="loginid" type="submit" value="Login" class="login_btn"/>
+		</form>
+		</div><br><br><br>
+		<form method="post" action="/project1/register.change"><br>
+			<p>Don't have an account?<br> No Problem! Create one now.</p>
+			<input type="submit" value="Register" class="register_btn"/>
+		</form>
+		</div>
+	</div>
+
+</body>
+</html>
